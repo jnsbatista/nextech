@@ -1,10 +1,15 @@
 body {
-  padding-bottom: 20px;
+  padding-bottom: 20px; 
+  background-color: #121212;
+  color:#fff;
+  width:100%;
 }
 
 .navbar {
   margin-left: 0px;
   margin-bottom: 20px;
+  background-color: #c928cfda;
+  color:#ffffff;
 }
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -22,10 +27,10 @@ body {
 
 .b-example-divider {
   height: 3rem;
-  background-color: rgba(0, 0, 0, .1);
-  border: solid rgba(0, 0, 0, .15);
+  background-color: rgba(255, 255, 255);
+  border: solid rgba(255,255,255);
   border-width: 1px 0;
-  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  box-shadow: inset 0 .5em 1.5em rgb(255, 255, 255), inset 0 .125em .5em rgba(255, 255, 255);
 }
 
 .b-example-vr {

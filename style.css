@@ -4,12 +4,20 @@ body {
   color:#fff;
   width:100%;
 }
+.light-mode{ 
+  padding-bottom: 20px; 
+  background-color: #fff;
+  color:#000;
+  width:100%;
+}
+.botao{
+  margin-right: 50,5rem !important;
+}
 
 .navbar {
   margin-left: 0px;
   margin-bottom: 20px;
-  background-color: #c928cfda;
-  color:#ffffff;
+  background-color: #c928cff3;
 }
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -61,3 +69,5 @@ body {
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
+/* estilização de botão de dark mode */
+

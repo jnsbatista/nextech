@@ -4,14 +4,12 @@ body {
   color:#fff;
   width:100%;
 }
+
 .light-mode{ 
   padding-bottom: 20px; 
   background-color: #fff;
   color:#000;
   width:100%;
-}
-.botao{
-  margin-right: 50,5rem !important;
 }
 
 .navbar {
@@ -71,3 +69,38 @@ body {
 }
 /* estilização de botão de dark mode */
 
+
+input[type="checkbox"]
+{
+  position:relative;
+  width: 60px;
+  height: 30px;
+  -webkit-appearance: none;
+  background: #121212;
+  outline: none;
+  border-radius: 15px;
+  box-shadow: iinsert 0 0 5px rgba(0, 0, 0,2);
+  transition: .5s;
+}
+ input:checked[type="checkbox"]{
+  background: #fff;
+ }
+ 
+input[type="checkbox"]:before{
+  content:'';
+  position:absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  top: 0;
+  left: 0;
+  background: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 2px 5px rgba(0,0,0,.2);
+  transition: .5s;
+}
+
+input:checked[type="checkbox"]:before{
+  left:30px;
+}
+/* fim daestilização de botão de dark mode */

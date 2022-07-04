@@ -18,7 +18,7 @@ body {
   top:0%;
   margin-left: 0px;
   margin-bottom: 20px;
-  background-color: #c928cff3;
+  background-color: #000;
 }
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -110,13 +110,13 @@ input:checked[type="checkbox"]:before{
 /* footer */
 
 .nav-footer{
-  color:#fff;
+  color:#ededed;
 }
 
 .final{
   margin-left: 0;
   width: 100%;
-  background-color: #c928cff3;
+  background-color: #000;
   color: #fff;
 }
 

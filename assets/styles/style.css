@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* IMPORT FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+
+/* ========VARIABLES ====== */
+
+:root {
+  --header-height: 4.5rem;
+  /* colors */
+
+  /* HSL color mode */
+  /* --base-color-alt: hsl(var(--hue) 57% 53%); */
+  --base-color-yellow-first: hsl(45.882, 100%, 50%);
+  --base-color-yellow-second: hsl(48.941, 100%, 50%);
+  --base-color-yellow-third: hsl(55.059, 100%, 50%);
+  --base-color-dark-first: hsl(0, 0%, 9%);
+  --base-color-dark-second: hsl(0, 0%, 17%);
+  --base-color-dark-third: hsl(0, 0%, 34%);
+  --base-color-dark-fourth: hsl(0, 0%, 68%);
+
+  --text-color-light: hsl(0 0% 98%);
+
+  --font-one: "Roboto", century;
+  --font-two: "Inconsolata", impact;
+  --font-three: "Poppins", sans-serif;
+}

@@ -1,12 +1,11 @@
 body {
-  padding-bottom: 20px; 
   background-color: #121212;
   color:#fff;
   width:100%;
+  min-height: 100vh;
 }
 
 .light-mode{ 
-  padding-bottom: 20px; 
   background-color: #dcdcdc;
   color:#000;
   width:100%;
@@ -136,7 +135,7 @@ input:checked[type="checkbox"]:before{
   margin-top:70px;
   height: 100px;
   width: 100%;
-  background-image: url('imgs/fundo-roxo.png');
+  background-image: url('imgs/fundo-preto.png');
   background-size: 100%,100%;
 }
 

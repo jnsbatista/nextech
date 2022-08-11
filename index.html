@@ -15,25 +15,60 @@
   <link href="assets/styles/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="nex">
 
   <!-- ========== Navigation ========== -->
 
-  <header id="header">
-    <nav class="container">
-      <a class="logo" href="#">Nex<span>Tech</span></a>
-      <div class="menu">
-        <ul class="grid">
-          <li><a class="title" href="#home">Início</a></li>
-          <li><a class="title" href="#news">Novidades</a></li>
-          <li><a class="title" href="#promotions">Promoções</a></li>
-          <li><a class="title" href="#category">Categorias</a></li>
-        </ul>
+  <nav id="header" class="navbar navbar-defaut navbar-fixed-top navbar-trans">
+    <div class="navbar-header page-scroll">
+      <!-- Logo -->
+      <a href="index.html"><img class="navbar-logo navbar-logo-branco" alt="NexTech - Logo"></a>
+      <a href="index.html"><img class="navbar-logo navbar-logo-preto" alt="NexTech - Logo"></a>
+    </div>
+
+    <div id="navbar" class="nex-navbar-pages">
+      <ul class="nav navbar-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#about">Sobre Nós</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contato</a></li>
+
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="home" class="fs-slider-hero">
+    <div class="fs-slider slick-initialized slick-slider">
+
+      <!-- Slide 1 -->
+      <div aria-live="polite" class="slick-list draggable" tabindex="0">
+        <div class="slick-track" style="opacity: 1">
+          <div class="fs-slider-item fs-slide-1 slick-slide slick-active" data-slick-index="0" aria-hidden="false"
+            style="position: relative; left: 0px; top: 0px; z-index: 900; opacity: 1;">
+            <div class="bg-overlay">
+
+            </div><!-- / .bg-overlay -->
+          </div>
+
+        </div>
       </div>
-      <div class="toggle icon-menu"></div>
-      <div class="toggle icon-close"></div>
-    </nav>
-  </header>
+    </div>
+
+  </div>
+
+
 
   <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/script.js" type="text/javascript"></script>

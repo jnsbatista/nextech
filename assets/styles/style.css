@@ -211,6 +211,47 @@ ul, ol, li {
 }
 
 .fs-slide-1 {
-  background: url(../images/imagem_de_fundo_2.png);
+  background-image: url(../images/m5.jpg);
   background-size: cover;
+}
+
+
+
+
+
+/* ======= MEDIA QUERIES ========= */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) {
+  .fs-slide-1 {
+    background-image: url(../images/s2.jpg);
+    background-size: cover;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .fs-slide-1 {
+    background-image: url(../images/m4.jpg);
+    background-size: cover;
+  }
+}
+
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+
+/* // XXX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1800px) {
+  .fs-slide-1 {
+    background-image: url(../images/l2.jpg);
+    background-size: cover;
+  }
 }

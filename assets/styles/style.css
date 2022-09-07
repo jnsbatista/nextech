@@ -56,6 +56,22 @@ ul, ol, li {
   font-size: calc(var(--nex-h1)*2.2 / (var(--nex-aspect-ratio)));
 }
 
+.nex .h2, h2 {
+  font-size: calc(var(--nex-h2)*2.2 / (var(--nex-aspect-ratio)));
+}
+
+.nex .h3, h3 {
+  font-size: calc(var(--nex-h3)*2.2 / (var(--nex-aspect-ratio)));
+}
+
+.nex .h4, h4 {
+  font-size: calc(var(--nex-h4)*2.2 / (var(--nex-aspect-ratio)));
+}
+
+.nex .p, p {
+  font-size: calc(var(--nex-p)*2.2 / (var(--nex-aspect-ratio)));
+}
+
 
 /* ============ NAVIGATION ================ */
 
@@ -105,7 +121,6 @@ ul, ol, li {
 /* logo */
 .navbar .navbar-header {
   width: 7%;
-  margin-left: 50px;
 }
 
 .navbar-logo {
@@ -193,6 +208,15 @@ ul, ol, li {
   padding: 0;
 }
 
+.fs-slide-1 .bg-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(17, 17, 17, 0.7);
+}
+
 .slick-track {
   position: relative;
   top: 0;
@@ -211,47 +235,89 @@ ul, ol, li {
 }
 
 .fs-slide-1 {
-  background-image: url(../images/m5.jpg);
+  background-image: url(../images/m7.jpg);
   background-size: cover;
 }
 
-
-
-
-
-/* ======= MEDIA QUERIES ========= */
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 300px) {
-  .fs-slide-1 {
-    background-image: url(../images/s2.jpg);
-    background-size: cover;
-  }
+.fs-slider-hero .fs-slider .fs-slider-item .bg-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
 }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .fs-slide-1 {
-    background-image: url(../images/m4.jpg);
-    background-size: cover;
-  }
+.fs-slider-hero .fs-slider .fs-slider-item .hero-content-wrapper {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
 }
 
+.fs-slider-hero .fs-slider .fs-slider-item .hero-content-wrapper .hero-content {
+  display: table-cell;
+  width: 100%;
+  height: 100vh;
+  vertical-align: middle;
+}
 
+.fs-slide-1 .hero-content {
+  text-align: center;
+}
 
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+.fs-slide-1 .hero-content .hero-subheading {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: #999;
+}
 
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {}
+.h-alt {
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+}
 
-/* // XXX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1800px) {
-  .fs-slide-1 {
-    background-image: url(../images/l2.jpg);
-    background-size: cover;
-  }
+.fs-slide-1 .hero-content .hero-lead {
+  margin-bottom: 35px;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 800;
+  letter-spacing: 15px;
+  color: #ececec;
+  text-transform: uppercase;
+}
+
+.fs-slide-1 .hero-content .hero-lead span {
+  font-weight: 300;
+}
+
+.btn-light {
+  text-decoration: none;
+  color: #111;
+  background: #ececec;
+}
+
+.btn, .btn-ghost, .btn-ghost-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light, .btn-text, .btn-text-light, .btn-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light {
+  position: relative;
+  display: inline-block;
+  padding: 8px 38px;
+  background: #111;
+  color: #ececec;
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  line-height: 1.8em;
+  border-radius: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* .btn-light i {
+  font-size: 48px
+} */
+
+.btn-light:hover {
+  border-style: solid;
+  background: #111 !important;
+  color: var(--base-color-yellow-first) !important;
 }

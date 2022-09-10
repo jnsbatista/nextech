@@ -102,7 +102,7 @@ ul, ol, li {
   border-bottom: none;
   background: transparent;
   transition-property: background;
-  transition-duration: 0.3s;
+  transition-duration: 0.5s;
   transition-timing-function: ease;
   transition-delay: 0s;
 }
@@ -116,6 +116,13 @@ ul, ol, li {
   content: " ";
   display: table;
   clear: both;
+}
+
+nav.black {
+  box-shadow: 0px 0px 12px rgb(0 0 0 / 40%);
+  background: var(--base-color-dark-first);
+  border-bottom: none;
+  opacity: 90%;
 }
 
 /* logo */

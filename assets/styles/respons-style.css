@@ -14,7 +14,7 @@
   }
 
   .navbar-logo {
-    height: calc(var(--nex-base-size)*3.5 / (var(--nex-aspect-ratio)));
+    height: calc(var(--nex-base-size)*3 / (var(--nex-aspect-ratio)));
     max-height: 80px;
   }
 
@@ -36,7 +36,7 @@
   }
 
   .navbar-logo {
-    height: calc(var(--nex-base-size)*2.5 / (var(--nex-aspect-ratio)));
+    height: calc(var(--nex-base-size)*2 / (var(--nex-aspect-ratio)));
     max-height: 60px;
   }
 

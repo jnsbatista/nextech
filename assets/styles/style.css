@@ -119,10 +119,10 @@ ul, ol, li {
 }
 
 nav.black {
-  box-shadow: 0px 0px 12px rgb(0 0 0 / 40%);
+  box-shadow: 0px 0px 3px var(--base-color-yellow-first);
   background: var(--base-color-dark-first);
   border-bottom: none;
-  opacity: 90%;
+  transition: all 0.5s;
 }
 
 /* logo */
@@ -183,14 +183,7 @@ nav.black {
   color: var(--base-color-yellow-first);
 }
 
-
-
-
-
-
-
-
-/*  =============== HOME (desconfigurada) =============== */
+/*  =============== HOME =============== */
 .slick-slider {
   position: relative;
   display: block;
@@ -317,14 +310,13 @@ nav.black {
   border-radius: 0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  border-radius: 20px;
 }
 
-/* .btn-light i {
-  font-size: 48px
-} */
 
 .btn-light:hover {
   border-style: solid;
   background: #111 !important;
   color: var(--base-color-yellow-first) !important;
+  box-shadow: 0px 0px 12px var(--base-color-yellow-first);
 }

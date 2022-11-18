@@ -393,6 +393,9 @@ ul, ol, li {
 .container06:hover img {
   transform: scale(1.3);
 }
+.border{
+  border:#ffc300;
+}
 
 
 

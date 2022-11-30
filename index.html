@@ -258,13 +258,6 @@
           <img src="./assets/images/p__03.png" class="img-fluid portifolio-img mt-5 ms-2" style="height:220px; width:380px;">
           <div class="overlay"></div>
         </div>
-        <!-- Example single danger button -->
-        <div class="col-lg-4"></div>
-        <div class="btn-group col-lg-4">
-          <button type="button" class="btn mt-5 text-light" aria-expanded="false" style="background-color:#2b2b2b">
-            mostrar mais
-          </button>
-        </div>
         <div class="col-lg-4 container05">
           <img src="./assets/images/p__04.png" class="img-fluid portifolio-img mt-5 ms-2 d-none" style="height:220px; width:380px;">
           <div class="overlay"></div>
@@ -273,6 +266,15 @@
           <img src="./assets/images/p__05.png" class="img-fluid portifolio-img mt-5 ms-2 d-none" style="height:220px; width:380px;">
           <div class="overlay"></div>
         </div>
+        <!-- Example single danger button -->
+        <div class="row">
+          <div class="col-lg-4"></div>
+          <div class="btn-group col-lg-4">
+            <button type="button" onclick="show()" class="btn mt-5 text-light" aria-expanded="false" style="background-color:#2b2b2b">
+              mostrar mais
+            </button>
+          </div>
+        </div>  
       </div>
     </div>
   </div>
@@ -304,13 +306,6 @@
           <img src="./assets/images/p__03.png" class="img-fluid portifolio-img mt-5 ms-2" style="height:220px; width:380px;">
           <div class="overlay"></div>
         </div>
-        <!-- Example single danger button -->
-        <div class="col-md-4"></div>
-        <div class="btn-group col-md-4">
-          <button type="button" class="btn mt-5 text-light" aria-expanded="false" style="background-color:#2b2b2b">
-            mostrar mais
-          </button>
-        </div>
         <div class="col-md-6 container05">
           <img src="./assets/images/p__04.png" class="img-fluid portifolio-img mt-5 ms-2 d-none" style="height:220px; width:380px;">
           <div class="overlay"></div>
@@ -318,6 +313,13 @@
         <div class="col-md-6 container06">
           <img src="./assets/images/p__05.png" class="img-fluid portifolio-img mt-5 ms-2 d-none" style="height:220px; width:380px;">
           <div class="overlay"></div>
+        </div>
+        <!-- Example single danger button -->
+        <div class="col-md-4"></div>
+        <div class="btn-group col-md-4">
+          <button type="button" onclick="show()" class="btn mt-5 text-light" aria-expanded="false" style="background-color:#2b2b2b">
+            mostrar mais
+          </button>
         </div>
       </div>
     </div>
@@ -344,7 +346,13 @@
   <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/script.js" type="text/javascript"></script>
   <script>
-    
+  function show() {
+    var imgs = document.querySelectorAll(".portifolio-img")
+    imgs.forEach(element => {
+      element.classList.remove("d-none")
+    })
+
+  }   
   </script>
 </body>
 
